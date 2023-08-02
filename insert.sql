@@ -40,14 +40,26 @@ VALUES (1, 2),
        (6, 3);
 
 INSERT INTO track_list (name_of_track, id_album, track_duration) 
-VALUES ('Моя Печаль', 1, 185),
-       ('Моя Радость', 2, 228),
+VALUES ('Печаль мое состояние', 1, 185),
+       ('мое настроение', 2, 228),
        ('Улыбка', 3, 289), 
        ('Страх', 4, 215), 
        ('Любовь', 2, 293), 
        ('Надежда', 5,  279), 
        ('Время', 6, 218), 
-       ('Прошлое', 6, 115);
+       ('Прошлое', 6, 115),
+       ('Прошлое мое', 6, 273),
+       ('my own', 6, 233),
+       ('own my', 6, 243),
+       ('my', 6, 222),
+       ('oh my love', 6, 255),
+       ('myself', 6, 250),
+       ('by myself', 6, 244),
+       ('bemy self', 6, 233),
+       ('myself by', 6, 250),
+       ('by myself by', 6, 257),
+       ('beemy', 6, 255),
+       ('premyne', 6, 244);
 
 INSERT INTO collection (name_of_collection, year_of_release) 
 VALUES ('Золотое яблоко', 2022), 
